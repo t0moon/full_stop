@@ -1,0 +1,4 @@
+interface:
+  display_name: "AIGC Paper Corpus"
+  short_description: "Summarize and synthesize the AIGC research PDFs in this project."
+  default_prompt: "Read the local AIGC paper corpus, extract abstracts and keywords, then synthesize themes, methods, risks, and research gaps."
