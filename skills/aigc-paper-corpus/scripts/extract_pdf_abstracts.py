@@ -86,7 +86,7 @@ NOISY_KEYWORD_MARKERS = (
     "\u65b0\u5a92\u4f53\u7814\u7a76",
 )
 
-MANUAL_METADATA_OVERRIDES: dict[str, dict[str, str]] = {
+MANUAL_METADATA_OVERRIDES: dict[str, dict[str, object]] = {
     "1-s2.0-S0360131524001787-main.pdf": {
         "title": "Comparing human-made and AI-generated teaching videos: An experimental study on learning effects",
     },
@@ -108,6 +108,79 @@ MANUAL_METADATA_OVERRIDES: dict[str, dict[str, str]] = {
     },
     "The Impact of Artificial Intelligence in Advertising_ An Experime.pdf": {
         "title": "The Impact of Artificial Intelligence in Advertising: An Experimental Evaluation of AI Video Generators",
+    },
+    "多模态话语分析理论与外语教学 (张德禄等著, 张德禄等著, 张德禄) (z-library.sk, 1lib.sk, z-lib.sk).pdf": {
+        "title": "多模态话语分析理论与外语教学",
+        "author_hint": "张德禄等",
+    },
+    "Strategic_brand_concept_image_management.pdf": {
+        "title": "Strategic Brand Concept-Image Management",
+        "author_hint": "C. Whan Park; Bernard J. Jaworski; Deborah J. MacInnis",
+        "abstract": (
+            "Conveying a brand image to a target market is a fundamental marketing activity. "
+            "The authors present a normative framework, termed brand concept management (BCM), "
+            "for selecting, implementing, and controlling a brand image over time. The framework "
+            "consists of a sequential process of selecting, introducing, elaborating, and fortifying "
+            "a brand concept. The concept guides positioning strategies, and hence the brand image, "
+            "at each of these stages. The method for maintaining this concept-image linkage depends "
+            "on whether the brand concept is functional, symbolic, or experiential. Maintaining this "
+            "linkage should significantly enhance the brand's market performance."
+        ),
+        "keywords": [
+            "brand concept management",
+            "brand image",
+            "positioning strategy",
+            "functional brand concept",
+            "symbolic brand concept",
+            "experiential brand concept",
+        ],
+    },
+    "“学习强国”陕西学习平台“助农公益视频”媒介呈现研究_王凡.pdf": {
+        "title": "“学习强国”陕西学习平台“助农公益视频”媒介呈现研究",
+        "author_hint": "王凡",
+        "abstract": (
+            "本研究以“学习强国”陕西学习平台“助农公益视频”栏目为对象，结合内容分析、叙事分析、案例研究和社会调查分析等方法，"
+            "系统考察2019年至2024年6月期间栏目视频的来源、数量、时长、地域、主题、叙事方式以及语言、视觉、听觉等多模态呈现特征，"
+            "并评估其传播效果。研究发现，该栏目在受众认知、态度和行为层面的传播效果较为显著，但在内容创新性、主题丰富度、平台自主性和"
+            "受众互动性方面仍有不足。论文据此提出通过创新内容主题、挖掘地方乡村图景、提升平台编排能力、优化互动反馈渠道和加强整体质量建设"
+            "等路径，提升助农公益视频对乡村振兴传播的支撑作用。"
+        ),
+        "keywords": [
+            "“学习强国”陕西学习平台",
+            "助农公益视频",
+            "多模态话语分析",
+            "媒介呈现",
+            "效果评估",
+        ],
+    },
+    "抖音“深圳卫健委”短视频账号的传播策略研究_田爱霖.pdf": {
+        "title": "抖音“深圳卫健委”短视频账号的传播策略研究",
+        "author_hint": "田爱霖",
+        "keywords": [
+            "多模态话语分析",
+            "抖音“深圳卫健委”",
+            "政务短视频",
+            "传播策略",
+            "政务公信力",
+        ],
+    },
+    "非遗题材短视频的多模态话语研究_李菲凡.pdf": {
+        "title": "非遗题材短视频的多模态话语研究",
+        "author_hint": "李菲凡",
+        "abstract": (
+            "本研究以抖音平台非遗题材短视频为对象，结合张德禄多模态话语分析综合框架与视觉语法理论，采用语料库辅助话语分析方法，"
+            "从语境、表达、意义以及关系和语篇层面构建非遗题材短视频的多模态话语分析框架。研究发现，这类短视频在宏观上兼具民族性与时代性、"
+            "传承与传播的双重使命；在表达层面通过文字、标题、解说、身体与非身体视觉模态、同期声与背景音乐等多模态协同建构文化意义；"
+            "在互动与构图层面则通过亲密距离、正面平视、中情态、中心边缘布局和高显著性画面激活文化记忆、塑造中国审美。论文进一步归纳出增强"
+            "模态使用密度、保持原真画面风格、重视视觉互动语法、设计多元故事情节以及运用隐喻转喻机制等话语创新策略。"
+        ),
+        "keywords": [
+            "非遗题材短视频",
+            "多模态话语分析",
+            "视觉语法",
+            "多模态语料库",
+            "话语创新",
+        ],
     },
 }
 
@@ -319,6 +392,11 @@ def digest_pdf(pdf_path: Path, page_limit: int) -> PaperDigest:
         title = override["title"]
     if override.get("author_hint"):
         author_hint = override["author_hint"]
+    if override.get("abstract"):
+        abstract = override["abstract"]
+    override_keywords = override.get("keywords")
+    if isinstance(override_keywords, list) and all(isinstance(keyword, str) for keyword in override_keywords):
+        keywords = override_keywords
     return PaperDigest(
         source_file=pdf_path.name,
         title=title,
@@ -331,11 +409,11 @@ def digest_pdf(pdf_path: Path, page_limit: int) -> PaperDigest:
 
 def format_markdown(digests: list[PaperDigest]) -> str:
     lines = [
-        "# AIGC Paper Abstracts",
+        "# AIGC Research Source Abstracts",
         "",
-        f"Total papers: {len(digests)}",
+        f"Total sources: {len(digests)}",
         "",
-        "This file is generated from the PDFs in the project root. Re-run `scripts/extract_pdf_abstracts.py` after adding or replacing papers.",
+        "This file is generated from the PDFs in the project root. Re-run `scripts/extract_pdf_abstracts.py` after adding, removing, or replacing sources.",
         "",
     ]
     for index, digest in enumerate(digests, start=1):

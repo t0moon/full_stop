@@ -1,8 +1,8 @@
-# AIGC Paper Abstracts
+# AIGC Research Source Abstracts
 
-Total papers: 22
+Total sources: 34
 
-This file is generated from the PDFs in the project root. Re-run `scripts/extract_pdf_abstracts.py` after adding or replacing papers.
+This file is generated from the PDFs in the project root. Re-run `scripts/extract_pdf_abstracts.py` after adding, removing, or replacing sources.
 
 ## 1. Comparing human-made and AI-generated teaching videos: An experimental study on learning effects
 
@@ -26,7 +26,18 @@ In the age of generative AI, can teaching videos be efficiently and effectively 
 
 目的 / 意义 ] 探究 AIGC 多模态信息搜索用户认知特征，为优化 AIGC 多模态信息搜索工具、提升用户多模态信息搜索能力提供参考。 [ 方法 / 过程 ] 基于修订版 Bloom 认知分类理论，通过实验法采集数据，分别采用方差分析（双因素方差分析、单因素方差分析）、配对样本 T 检验、 Kruskal-Wallis 非参数检验、 Spearman 相关分析和多元线性回归等研究方法，对 AIGC 背景下多模态信息搜索过程中用户认知进行实证研究。围绕认知主题沿两条思路进行研究，一是研究任务难度感知、任务类型、任务情境和熟悉度对认知的作用；二是研究认知对多模态搜索行为、搜索满意度的作用，并根据认知心理学理论，分析背后生成机理，绘制多模态信息刺激— 结果满意度认知过程模型图。 [ 结果 / 结论 ] 第一，图像任务感知难度低于视频、音乐任务，图像搜索中的记忆、 应用和分析均显著高于视频任务和音乐任务，任务情境与认知无显著相关性，图像和音乐任务熟悉度对用户认知影响显著；第二，应用、评价正向影响搜索次数，创造更与长期搜索行为有关；理解、应用、分析正向影响搜索满意度。
 
-## 3. AIGC技术对信息茧房效应的强化机制——基于情感偏向性的信息检索实证研究
+## 3. AIGC广告与人工设计广告的效果及作用机制差异
+
+- Source file: `AIGC广告与人工设计广告的效果及作用机制差异_鲍俊宇.pdf`
+- Author hint: `鲍俊宇`
+- Pages: `72`
+- Keywords: `AIGC 广告, 广告效果, 情境实验, 独立样本 t 检验, logicality, production quality, attitude towards the advertisement, advertisement memory, and purchase intention, namely Lanzhou, Chengdu, Beijing, Harbin, and Xiamen, to conduct situational experiments, p < 0, their advertisement logicality (t = -2, p = 0, production quality (t = -10, p < 0, advertisement memory (t = -10, p < 0, p = 0, and purchase intention (t = -2, p = 0, p < 0, p < 0, p < 0, Advertising Effectiveness, Scenario Experiment, Independent Samples t-test`
+
+### Abstract
+
+在生成式人工智能技术高速发展的背景下，本研究通过情境实验法系统比较人工智能生成广告（AIGC 广告）与人工设计广告的效果与作用机制差异。研究构建广告新奇性、广告逻辑性、制作精良性、广告态度、广告记忆与购买意愿的多维度评估模型，在兰州、成都、北京、哈尔滨和厦门五地招募 450 名被试开展情境实验，应用独立样本 t 检验与多群组结构方程模型进行分析。 研究发现：（1）广告效果差异层面，AIGC 广告在制作效率与广告新奇性（t =3.960, p<0.001）方面表现突出，但其广告逻辑性（t=-2.225, p=0.027）、制作精良性（t=-10.978, p<0.001）、广告记忆（t=-10.087, p<0.001）、广告态度（t =-3.036, p=0.003）及购买意愿（t=-2.330, p=0.020）显著低于人工设计广告；（2） 作用机制差异层面，人工设计广告通过“广告逻辑性→广告态度→购买意愿”（β =0.362, p<0.001）与“制作精良性→广告态度→购买意愿”（β=0.305, p<0.001） 双路径实现深度说服，而 AIGC 广告依赖“广告新奇性→购买意愿”（β=0.354, p<0.001）直接效应驱动浅层行为意向。 研究基于数据分析结果提出“需求洞察→AIGC 生成→逻辑校准→情感强化” 的广告业人机协同思路，强调广告从业者在广告创作中的文化隐喻与情感共鸣层面的不可替代性，讨论人工智能全面应用背景下以创意为核心的广告人能力体系重心偏移与突围之路，为人工智能浪潮中广告业与广告人的 AIGC 应用提供理论与实践参考。
+
+## 4. AIGC技术对信息茧房效应的强化机制——基于情感偏向性的信息检索实证研究
 
 - Source file: `AIGC技术对信息茧房效应的强化机制——基于情感偏向性的信息检索实证研究_李鹏程.pdf`
 - Author hint: `李鹏程`
@@ -37,7 +48,7 @@ In the age of generative AI, can teaching videos be efficiently and effectively 
 
 目的 / 意义 ] 在 AIGC 技术重构信息生态系统的背景下，探究生成式人工智能对信息茧房效应的作用机制具有重要理论价值与社会意义。[ 方法 / 过程 ] 以 Google、ChatGPT-4o 和 Perplexity 三种代表性信息检索工具为样本， 设计并开展受控对照实验，构建和引入情感偏倚、情感极化、情感多样性等量化指标，多角度探究 AIGC 技术在增强检索结果同质化上的表现。在此基础上，结合案例分析，深入探讨 AIGC 的特征属性在调节信息流动和影响用户认知多样性上的作用机理。 [ 结果 / 结论 ] 实验结果表明，相较于传统搜索引擎， AIGC 类搜索平台更倾向于生成符合用户情感偏好的内容，其返回结果的情感一致性显著更强，表现为情感偏倚指数和极化指数显著提高，同时情感多样性显著降低。同时， AIGC 通过其内部的“级联放大”机制在信息处理的各个环节中逐级放大情感偏向。此外，研究还识别出不同 AIGC 工具在实现该机制时存在“高偏倚输入”与“高强度过滤” 的策略差异。
 
-## 4. AIGC时代的学术出版伦理：风险挑战与治理路径
+## 5. AIGC时代的学术出版伦理：风险挑战与治理路径
 
 - Source file: `AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf`
 - Author hint: `葛建平`
@@ -48,7 +59,7 @@ In the age of generative AI, can teaching videos be efficiently and effectively 
 
 人工智能技术，尤其是生成式人工智能技术的应用给学术出版带来深刻变革，也带来一系列风险挑战，需要防范化解。本研究从人工智能伦理的定义和内涵入手，对人工智能学术出版伦理进行分类和分析，从学术出版主体、学术出版内容、学术出版生态三个层面总结在人工智能背景下学术出版伦理面临的风险。立足学术出版特征，运用人工智能伦理理论，应从法律路径、技术路径、伦理路径和协同治理四个方面加强AIGC时代的学术出版伦理治理，为智能时代学术出版的高质量发展提供参考。
 
-## 5. AIGC赋能出版全产业链的内在逻辑与实践路径
+## 6. AIGC赋能出版全产业链的内在逻辑与实践路径
 
 - Source file: `AIGC赋能出版全产业链的内在逻辑与实践路径_欧阳碧蕾.pdf`
 - Author hint: `欧阳碧蕾`
@@ -59,7 +70,7 @@ In the age of generative AI, can teaching videos be efficiently and effectively 
 
 AIGC 的应用标志着出版业由技术赋能向智能驱动的范式跃迁。以出版全产业链为研究视角， 深度剖析 AIGC 作为生产协同主体在重塑知识生产主体、重构价值链条结构、革新知识服务形态及推动产业生态扩容等方面的内在逻辑。同时，系统梳理 AIGC 赋能出版全产业链面临的法理规则博弈、内容质量异化、产业结构矛盾与伦理秩序失范等困境，提出通过制度体系重构、出版价值固守、技术基座重塑与多元主体共治的路径，推动出版全产业链实现从技术移植到深度融合的高质量发展跨越。
 
-## 6. AIGC重塑网络文学IP：从线性写作到循环生成工作流研究
+## 7. AIGC重塑网络文学IP：从线性写作到循环生成工作流研究
 
 - Source file: `AIGC重塑网络文学IP：从线性写作到循环生成工作流研究_袁萱.pdf`
 - Author hint: `袁萱`
@@ -70,7 +81,7 @@ AIGC 的应用标志着出版业由技术赋能向智能驱动的范式跃迁。
 
 本文聚焦AIGC技术驱动下中国网络文学IP生产从“线性写作”向“循环生成”的范式转型。基于媒介融合理论与行动者网络理论，本文揭示了AIGC作为关键行动元如何重塑叙事生产的权力边界。通过构建“触发—生成—筛选—反馈”的动态叙事工作流模型，并运用演进谱系案例分析法，本文解构了数据驱动、AI生成驱动及数据与AI融合驱动三个阶段的平台实践，系统解析了技术逻辑、产业逻辑与权力逻辑的三维耦合演进过程。这一转型推动出版业从静态的“作品管理”迈向动态的“叙事管理”新机制：管理对象由封闭文本转向开放的叙事活系统，流程由线性流水线转向人机协同网络，目标由交付产品转向运维生态与创造体验。在此机制下，传统编辑必须从“知识守门人”的角色历史性地重构为具备架构力、提示力、数据力与整合力的“叙事工程师”。本文不仅为理解算法时代的叙事权力重组提供了中观理论框架， 也为出版机构在AIGC时代的流程再造与人才培养指明了系统性转型路径。
 
-## 7. AIGC驱动短视频内容创作的全维变革与范式重构
+## 8. AIGC驱动短视频内容创作的全维变革与范式重构
 
 - Source file: `AIGC驱动短视频内容创作的全维变革与范式重构_闫朋辉.pdf`
 - Author hint: `闫朋辉`
@@ -81,7 +92,7 @@ AIGC 的应用标志着出版业由技术赋能向智能驱动的范式跃迁。
 
 随着 AIGC 技术的发展， 短视频内容创作正经历智能化转型。 AIGC 通过虚拟再现、 智能编辑和自主创作三大功能， 推动短视频生产模式创新， 实现了素材收集、 脚本生成、 AI 作曲、 语音合成、 影像生成与智能剪辑等全流程升级， 显著提升了创作效率。 AIGC 构建了人机协同的新生态， 助力行业创新， 但也带来版权、 伦理与内容同质化等挑战， 需加强技术治理与法律规范。 未来， AIGC 将促进行业由 “ 效率优先 ” 向 “ 价值引领 ” 转变， 推动技术与人文融合。
 
-## 8. From recorded to AI-generated instructional videos: A comparison of learning performance and experience
+## 9. From recorded to AI-generated instructional videos: A comparison of learning performance and experience
 
 - Source file: `Brit J Educational Tech - 2024 - Xu - From recorded to AI‐generated instructional videos  A comparison of learning.pdf`
 - Author hint: `unknown`
@@ -92,7 +103,7 @@ AIGC 的应用标志着出版业由技术赋能向智能驱动的范式跃迁。
 
 Generative AI (GAI) and AI- generated content (AIGC) have been increasingly involved in our work and daily life, providing a new learning experience for students. This study examines whether AI- generated instructional videos (AIIV) can facilitate learning as effectively as traditional recorded videos (RV). We propose an instructional video generation pipeline that includes customized GPT (Generative Pre- trained Transformer), text- to- speech and lip synthesis techniques to generate videos from slides and a clip or a photo of a human instructor. Seventy- six students were randomly assigned to learn English words using either AIIV or RV, with performance assessed by retention, transfer and subjective measures from cognitive, emotional, motivational and social perspectives. The findings indicate that the AIIV group performed as well as the RV group in facilitating learning, with AIIV showing higher retention but no significant differences in transfer. RV was found to offer a stronger sense of social presence. Although other subjective measures were similar between the two groups, AIIV was perceived as slightly less favourable. However, the AIIV was still found to be moderately to highly attractive, addressing concerns related to the uncanny valley effect. This research demonstrates that AIGC can be an effective tool for learning, offering valuable implications for the use of GAI in educational settings. 1464 | XU et al.
 
-## 9. Content Quality Over Functionality: How Aesthetics, Authenticity, and Creativity Drive Designers' Adoption of AI-Generated Video Advertising Tools
+## 10. Content Quality Over Functionality: How Aesthetics, Authenticity, and Creativity Drive Designers' Adoption of AI-Generated Video Advertising Tools
 
 - Source file: `Content_Quality_Over_Functionality_How_Aesthetics_Authenticity_and_Creativity_Drive_Designers_Adoption_of_AI-Generated_Video_Advertising_Tools.pdf`
 - Author hint: `unknown`
@@ -103,7 +114,7 @@ Generative AI (GAI) and AI- generated content (AIGC) have been increasingly invo
 
 This study examines how perceived content quality in AI-generated video advertisements influences advertising designers’ intention to adopt AI-generated video advertising tools. Extending the Technology Acceptance Model (TAM), it models aesthetics, authenticity, and creativity as antecedents of perceived usefulness (PU) and perceived trust (PT), which in turn affect behavioral intention. A stimulus- based survey design was used. Six mainstream AI video-generation tools were applied under a unified prompt and a shared perfume-advertising task, and the screened outputs were compiled into a standardized 33-second stimulus video. After viewing the same video, 556 valid respondents completed a structured questionnaire, and the data were analyzed using partial least squares structural equation modeling (PLS- SEM). The results show that aesthetics, authenticity, and creativity are all associated with adoption intention, but through different mechanisms. Authenticity and creativity show more stable indirect effects through perceived usefulness and perceived trust, whereas aesthetics mainly exerts a direct effect. Creativity has the strongest effects on perceived usefulness and perceived trust. PU also positively predicts PT, underscoring the importance of trust in professional creative settings characterized by uncertain AI outputs. These findings offer a content-centered extension of TAM, showing that perceived content quality is associated with designers’ adoption intention toward AI-generated advertising tools, with implications for AI tool development, human–AI advertising workflows, and AI literacy in creative education. INDEX TERMS AI-generated video advertising, technology acceptance model (TAM), AI video tools, behavioral intention, perceived trust, perceived usefulness.
 
-## 10. Effect of disclosing AI-generated content on prosocial advertising evaluation
+## 11. Effect of disclosing AI-generated content on prosocial advertising evaluation
 
 - Source file: `Effect of disclosing AI-generated content on prosocial advertising evaluation.pdf`
 - Author hint: `unknown`
@@ -114,7 +125,7 @@ This study examines how perceived content quality in AI-generated video advertis
 
 With advancements in generative artificial intelligence (AI) technol - ogy, there is a growing concern about its ethical implications, transparency, and consumer reactions to AI-generated content. Building on the persuasion knowledge model and algorithm aver - sion literature, this study explores the effects of AI disclosure in prosocial advertising on consumer attitudes and donation inten - tions. The findings of Study 1 indicate that the initial disclosure of AI-generated content leads to unfavourable attitudes towards ads, with perceived ad credibility serving as a mediating factor. In Study 2, participants who perceived AI as more human-like rather than machine-like tended to experience a diminished negative impact of AI disclosure. Study 3 also highlights the crucial role of per - ceived ad credibility in influencing donation intentions following the disclosure of AI-generated content. The theoretical and practi - cal implications of our findings for social marketers and nonprofit organizations are discussed further.
 
-## 11. The effect of an AI-generated advertisement on consumer attitudes
+## 12. The effect of an AI-generated advertisement on consumer attitudes
 
 - Source file: `Mastersthesis_Lankinen_Elina.pdf`
 - Author hint: `Elina Lankinen`
@@ -125,7 +136,7 @@ With advancements in generative artificial intelligence (AI) technol - ogy, ther
 
 Lappeenranta–Lahti University of Technology LUT LUT Business School Business Administration Elina Lankinen The effect of an AI-generated advertisement on consumer attitudes Master’s thesis 2025 75 pages, 6 figures, 3 tables and 1 appendix Examiners: Assistant Professor Jenni Sipilä and Professor Liisa-Maija Sainio
 
-## 12. Comparing large Language models and human annotators in latent content analysis of sentiment, political leaning, emotional intensity and sarcasm
+## 13. Comparing large Language models and human annotators in latent content analysis of sentiment, political leaning, emotional intensity and sarcasm
 
 - Source file: `s41598-025-96508-3.pdf`
 - Author hint: `unknown`
@@ -136,7 +147,18 @@ Lappeenranta–Lahti University of Technology LUT LUT Business School Business A
 
 Comparing large Language models and human annotators in latent content analysis of sentiment, political leaning, emotional intensity and sarcasm Ljubiša Bojić 1,2, Olga Zagovora 3,4, Asta Zelenkauskaite 5,6, Vuk Vuković 7, Milan Čabarkapa 8, Selma Veseljević Jerković 9 & Ana Jovančević 10 In the era of rapid digital communication, vast amounts of textual data are generated daily, demanding efficient methods for latent content analysis to extract meaningful insights. Large Language Models (LLMs) offer potential for automating this process, yet comprehensive assessments comparing their performance to human annotators across multiple dimensions are lacking. This study evaluates the inter-rater reliability, consistency, and quality of seven state-of-the-art LLMs. These include variants of OpenAI’s GPT-4, Gemini, Llama-3.1-70B, and Mixtral 8 × 7B. Their performance is compared to human annotators in analyzing sentiment, political leaning, emotional intensity, and sarcasm detection. The study involved 33 human annotators and eight LLM variants assessing 100 curated textual items. This resulted in 3,300 human and 19,200 LLM annotations. LLM performance was also evaluated across three-time points to measure temporal consistency. The results reveal that both humans and most LLMs exhibit high inter-rater reliability in sentiment analysis and political leaning assessments, with LLMs demonstrating higher reliability than humans. In emotional intensity, LLMs displayed higher reliability compared to humans, though humans rated emotional intensity significantly higher. Both groups struggled with sarcasm detection, evidenced by low reliability. Most LLMs showed excellent temporal consistency across all dimensions, indicating stable performance over time. This research concludes that LLMs, especially GPT-4, can effectively replicate human analysis in sentiment and political leaning, although human expertise remains essential for emotional intensity interpretation. The findings demonstrate the potential of LLMs for consistent and high-quality performance in certain areas of latent content analysis.
 
-## 13. The Impact of Artificial Intelligence in Advertising: An Experimental Evaluation of AI Video Generators
+## 14. Strategic Brand Concept-Image Management
+
+- Source file: `Strategic_brand_concept_image_management.pdf`
+- Author hint: `C. Whan Park; Bernard J. Jaworski; Deborah J. MacInnis`
+- Pages: `11`
+- Keywords: `brand concept management, brand image, positioning strategy, functional brand concept, symbolic brand concept, experiential brand concept`
+
+### Abstract
+
+Conveying a brand image to a target market is a fundamental marketing activity. The authors present a normative framework, termed brand concept management (BCM), for selecting, implementing, and controlling a brand image over time. The framework consists of a sequential process of selecting, introducing, elaborating, and fortifying a brand concept. The concept guides positioning strategies, and hence the brand image, at each of these stages. The method for maintaining this concept-image linkage depends on whether the brand concept is functional, symbolic, or experiential. Maintaining this linkage should significantly enhance the brand's market performance.
+
+## 15. The Impact of Artificial Intelligence in Advertising: An Experimental Evaluation of AI Video Generators
 
 - Source file: `The Impact of Artificial Intelligence in Advertising_ An Experime.pdf`
 - Author hint: `unknown`
@@ -147,7 +169,29 @@ Comparing large Language models and human annotators in latent content analysis 
 
 Abstract extraction failed. Inspect the PDF manually.
 
-## 14. 人智交互体验中算法素养对AIGC感知可信度的影响研究
+## 16. “学习强国”陕西学习平台“助农公益视频”媒介呈现研究
+
+- Source file: `“学习强国”陕西学习平台“助农公益视频”媒介呈现研究_王凡.pdf`
+- Author hint: `王凡`
+- Pages: `187`
+- Keywords: `“学习强国”陕西学习平台, 助农公益视频, 多模态话语分析, 媒介呈现, 效果评估`
+
+### Abstract
+
+本研究以“学习强国”陕西学习平台“助农公益视频”栏目为对象，结合内容分析、叙事分析、案例研究和社会调查分析等方法，系统考察2019年至2024年6月期间栏目视频的来源、数量、时长、地域、主题、叙事方式以及语言、视觉、听觉等多模态呈现特征，并评估其传播效果。研究发现，该栏目在受众认知、态度和行为层面的传播效果较为显著，但在内容创新性、主题丰富度、平台自主性和受众互动性方面仍有不足。论文据此提出通过创新内容主题、挖掘地方乡村图景、提升平台编排能力、优化互动反馈渠道和加强整体质量建设等路径，提升助农公益视频对乡村振兴传播的支撑作用。
+
+## 17. 中国国家形象的多模态构建研究——以《行进中的中国》第二季为例
+
+- Source file: `中国国家形象的多模态构建研究——以《行进中的中国》第二季为例_张雨.pdf`
+- Author hint: `张雨`
+- Pages: `100`
+- Keywords: `not extracted`
+
+### Abstract
+
+ 摘要 随着全球化深入发展和多模态话语分析的兴起， 外宣纪录片在传播国家故 事和塑造国家形象方面发挥着关键作用。 中外合拍纪录片 《 行进中的中国 》（第 二季） 通过创新性的国际化视听语言与中国叙事体系的有机融合， 为中国特色国 际传播构建提供了重要案例支撑。 本研宄以多模态话语分析为理论框架， 旨在探 讨纪录片 《 行进中的中国 》 第二季塑造了怎样的国家形象。 本研究以 Ｈ ａ ｌ ｌ ｉ ｄ ａｙ 的系统功能语法、 Ｋ ｒｅ ｓ ｓ ａｎ ｄ ｖａ ｎ Ｌ ｅ ｅ ｕ ｗ ｅ ｎ 的视觉语法、 张 德禄的多模态协同理论为理论框架， 选取纪录片 《 行进中的中国 》 第二季第 ５ 集 为研究材料， Ｅ ｌ ａ ｎ ６ ． ９ 和 Ｕ Ａ Ｍ  Ｃ ｏ ｒｐ ｕ ｓ  Ｔｏ ｏ ｌ  ６ 为标注工具， 采用定性和定量相结 合的研究方法分析纪录片中的语言模态和视觉模态是如何建构意义的， 然后用 定性的方法探讨模态协同塑造的国家形象。 研究发现， 第一， 从模态分析的视角来看， 本研究主要从语言模态和视觉模 态对纪录片进行分析， 就语言模态而言， 该纪录片在概念意义层面主要使用物质 过程向世界展示中国改善民生的实践， 详细介绍了中国的乡村振兴和发展成果； 在人际意义层面， 陈述句和低情态动词的高频使用表明纪录片在语言上强调信 息的客观性和真实性， 同时以一种谦逊的方式展现国家成就。 就视觉模态而言， 动作过程占比最高表明纪录片倾向于通过画面展现中国在民生改善的实际行动 和成就； 在互动意义层面， 该纪录片主要采用提供型信息， 通过中景加远景镜头 的结合， 将宏大主题融入个体叙事， 客观呈现了中国人民共享发展成果的具体实 践和成效； 在构图意义层面， 纪录片主要运用中心 － 边缘和显著性来突出重点信 息。 第二， 从模态协同关系的维度来看， 该纪录片中语言模态和视觉模态主要呈 现出互补关系中的非强化关系， 这种模态协同在多模态叙事与情感体验的双重 维度上增强了国家形象传播的效果。 第三， 从国家形象塑造的层面来看， 概念意 义和再现意义中的过程构成了中国国家形象的核心要素， 而参与者路径则系统 性地体现了国家形象的多维特征， 通过国民、 政府、 社会三个维度的协同建构， 形成了多维度的国家形象体系。 具体而言， 纪录片通过文字模态中的物质和心理 过程等， 结合视觉模态中的动作和分类等过程， 共同构建了人民幸福富足、 政府 高效有为、 社会团结奋进的立体化国家形象； 同时， 伴随环境成分和过程的使用， 进一步强化了中国社会团结奋进的形象。 Ｉ 摘要 本研宄基于多模态话语分析理论框架， 通过系统分析语言模态与视觉模态 的表征特征及其协同关系， 深入探究了纪录片话语中国家形象的建构， 为新时代 中国对外传播与国家形象塑造提供了一定的启示； 同时验证了从多模态话语分 析角度解读动态多模态语篇的可行性， 拓宽了多模态话语分析的研究领域。
+
+## 18. 人智交互体验中算法素养对AIGC感知可信度的影响研究
 
 - Source file: `人智交互体验中算法素养对AIGC感知可信度的影响研究_刘佳.pdf`
 - Author hint: `刘佳`
@@ -158,7 +202,7 @@ Abstract extraction failed. Inspect the PDF manually.
 
 目的 / 意义 ] 探究人智交互体验中用户算法素养对 AIGC 感知可信度的影响机制，以优化用户体验、增强其对 AIGC 技术的信任与接纳程度。 [ 方法 / 过程 ] 基于启发—系统式模型与“计算机即社会行动者”理论， 结合拟人化表达、同理心感知等社会属性，采用涵盖算法知识、算法意识、算法评估、算法应对和算法创造五个维度的算法素养体系，构建算法素养对 AIGC 感知可信度影响的理论模型，采用结构方程模型进行实证分析。 [ 结果 / 结论 ] 研究发现，算法素养通过强化用户感知信息质量促使用户采用系统式处理，从而显著提升感知可信度；然而，其通过削弱用户感知功能质量抑制启发式处理，进而对感知可信度产生负向影响，性别、学历等用户特征未显著调节该路径。此外，算法知识、算法评估与算法创造正向影响用户感知信息质量；算法意识与算法知识负向影响用户感知功能质量；算法知识与算法应对则正向影响用户感知 AI 道德。
 
-## 15. 人机协同阅读视域下AIGC文本阐释异化的表征、机理与调适路径
+## 19. 人机协同阅读视域下AIGC文本阐释异化的表征、机理与调适路径
 
 - Source file: `人机协同阅读视域下AIGC文本阐释异化的表征、机理与调适路径_周斌.pdf`
 - Author hint: `周斌`
@@ -169,7 +213,7 @@ Abstract extraction failed. Inspect the PDF manually.
 
 AIGC 深度融入人机协同阅读场景，极大地提升了阅读效能，却因工具理性对文本阐释本真的侵蚀，引发了明显的阐释异化问题： 既挤压了文本的多元阐释空间，也弱化了读者在阐释中的主体地位与话语权。立足阐释学、传播学媒介批判理论，融合哲学、伦理学视角，发现 AIGC 文本阐释异化呈现三重表征： 阐释主体的算法僭越、意义生产的同质化陷阱、阐释权力的结构失衡。其深层机理表现为工具理性压制阐释非理性、 数据霸权消解读者阐释话语权、 阅读阐释共同体瓦解的三维耦合，共同催生并加剧阐释异化。从伦理、机制与权力层面，确立人机阐释伦理契约、重构人机视域融合机制、构建分布式阐释权力网络，是调适阐释异化、 回归阐释本真的核心路径。
 
-## 16. 从大数据驱动到AI知识库生成：认知计算广告研究范式的变革
+## 20. 从大数据驱动到AI知识库生成：认知计算广告研究范式的变革
 
 - Source file: `从大数据驱动到AI知识库生成：认知计算广告研究范式的变革_段淳林.pdf`
 - Author hint: `段淳林`
@@ -180,7 +224,7 @@ AIGC 深度融入人机协同阅读场景，极大地提升了阅读效能，却
 
 在“人工智能驱动的科学研究 ”背景下，自然科学与社会科学的研究范式都在经历从第四范式向第五范式的演进，计算广告同步进入“AI 知识库生成”的认知计算广告研究范式阶段。这一范式以认知科学为基础，融合计算主义、神经网络、人工智能等学科的研究逻辑，通过大模型与 AI 知识库的模型化协同， 实现计算广告研究的智能创新。以 DIKW 层次模型作为前期理论依托，通过构建认知计算广告研究范式模型（TKLI 模型）发现：文本层、知识库层、大模型层和智能层的分层架构既有利于理解大模型和 AI 知识库在认知计算广告研究中的协作逻辑，也体现了全新的技术流程和方法体系。
 
-## 17. 从文本到视听：AIGC助力古诗古曲多模态阅读推广的技术路径研究
+## 21. 从文本到视听：AIGC助力古诗古曲多模态阅读推广的技术路径研究
 
 - Source file: `从文本到视听：AIGC助力古诗古曲多模态阅读推广的技术路径研究_唐绮蔚.pdf`
 - Author hint: `唐绮蔚`
@@ -191,7 +235,18 @@ AIGC 深度融入人机协同阅读场景，极大地提升了阅读效能，却
 
 在数字化与智能化深度融合的背景下， 传统阅读推广面临形式单一、 传播受限等挑战， 而中华优秀传统文化的传承亟须创新路径。 本文以 《 春江花月夜 》 古诗古曲为研究对象， 探索人工智能生成内容 ( AIG C ) 技术助力多模态阅读推广的技术路径与实践效果。 通过构建 《 春江遗梦曲承传 》 视听作品， 研究提出 “ 文本 — 图像 — 视频 ” 的多模态转化框架， 结合 AIG C 图片生成、 视频生成技术场景及提示词工程等技术实践， 实现古诗场景的动态可视化与古曲情感的视听联觉表达。 研究发现， AIG C 技术能够突破传统推广的时空限制， 通过多感官体验增强用户沉浸感， 促进文化资源的活化与传播; 同时， 其个性化创作模式降低了专业门槛， 激发公众参与文化生产的热情， 在提升阅读兴趣与传播效能方面具有显著优势， 为数字时代文化传承提供了创新思路。
 
-## 18. 城市记忆短视频AIGC重构的伦理风险及其治理
+## 22. 全球传播语境下TikTok熊猫频道的多模态话语分析
+
+- Source file: `全球传播语境下TikTok熊猫频道的多模态话语分析_李学娜 (1).pdf`
+- Author hint: `李学娜 (1)`
+- Pages: `92`
+- Keywords: `全球传播, TikTok, 熊猫频道, 短视频, spread Chinese voices well, and present a credibl e, lovely, and respectable image of China, linguistic visual modality, and non-linguist ic visual modality, with Chinese universal values, TikTok, iPanda Channel, short video, multimodal discourse 目录 1 引言`
+
+### Abstract
+
+iii 摘要为了推动中华文化走向世界， 让世界真正了解中国， 习近平总书记提出要 “讲好中国故事、传播好中国声音，展现可信、可爱、可敬的中国形象”。如今，在媒体转型逐渐短视频化的同时，中国文化的全球传播路径也正在被重塑。作为成功走向海外的短视频平台 TikTok 正以其多模态形式展现出不容小觑的发展潜力。本研究正是基于此时代背景之下，聚焦于 TikTok 熊猫频道，旨在通过拓展多模态话语分析的研究范围，丰富国内主流媒体出海的研究思路，以为全球传播提供一定的理论支撑，并为 TikTok 熊猫频道内容创作提供可行性的优化路径。 在研究中，使用多模态话语分析法，对 TikTok 熊猫频道的 617 条短视频中进行分层抽样，并抽取 240 条视频为研究样本，借助专业软件对音视频进行剥离、 编码等操作，从听觉模态、语言视觉模态和非语言视觉模态维度剖析其话语特征。 运用内容分析法，借助爬虫工具抓取智能标签并进行词频分析，并对热门评论进行“非介入式”解读，以实现受众真实想法的客观性呈现，为研究提供更为全面的数据支撑。 研究发现 TikTok 熊猫频道无不展现出中国文化元素的身影，其多模态符号表达充分发挥各自优势。在强化中国文化符号的同时，实现全球传播的低语境表达。 TikTok 熊猫频道多模态之间纵横交错的协同表达， 不仅深化了彼此间的表意互动， 还将多模态元话语的独特耦合特征充分展现，共同构建出信息聚合和意境沉浸的双重传播路径。TikTok 熊猫频道在智媒标签化、叙事重组化、交际全球化的数字流动模式中实现了象征意义的多维表达与重构，并以中国普世的价值观、具象的叙事观、发展的历史观为根基对中国文化展开多维自塑呈现，以此实现中国文化在全球传播中的意义建构。TikTok 熊猫频道在全球传播背景下多模态话语表达的双重性，其亮眼之处显著，可待优化之处也亟需得到关注。模态话语同质化严重、 内容叙述浅薄、代际断层等问题亟需展开针对性优化。因此，可借助模态话语趣味化转向，打破千篇一律表达；深刻挖掘中国文化底蕴，以情感化叙事实现情感链接与共鸣；搭乘技术之风，打破古今之壁垒，以实现短视频的轻量化转型。
+
+## 23. 城市记忆短视频AIGC重构的伦理风险及其治理
 
 - Source file: `城市记忆短视频AIGC重构的伦理风险及其治理_周杨.pdf`
 - Author hint: `周杨`
@@ -202,7 +257,7 @@ AIGC 深度融入人机协同阅读场景，极大地提升了阅读效能，却
 
 AIGC 城市记忆短视频为城市文化生产与传播带来了全新的数字创作方式。 技术赋能推动表达路径创新， 拓展城市记忆在时空层面的表达维度。 然而， 在算法逻辑主导的生产机制下， 也暴露出主体性消解， 在地性被工业化遮蔽以及数据偏差与监管缺失所引发的结构性价值风险。 本文以赛博伦理为理论框架， 将风险类型归纳为价值理性缺失、 工具理性失衡与制度理性滞后三个维度， 并据此提出人机融合、 动态平衡与互补协同的三重规制原则。 在内容生产与算法治理层面实现优化， 在效率逻辑与价值理性之间形成动态平衡， 推动多元主体参与共治， 从而为 AIGC 城市记忆短视频的高质量发展提供伦理保障。
 
-## 19. 基于生成式AI的合成广告：业态革新、风险隐忧与价值的再审视
+## 24. 基于生成式AI的合成广告：业态革新、风险隐忧与价值的再审视
 
 - Source file: `基于生成式AI的合成广告：业态革新、风险隐忧与价值的再审视_张可.pdf`
 - Author hint: `张可`
@@ -213,7 +268,51 @@ AIGC 城市记忆短视频为城市文化生产与传播带来了全新的数字
 
 基于生成式 AI 的合成广告凭借其自动生成、 个性化定制内容和精准抵达用户， 重塑了广告的生产逻辑， 增进了广告的观看体验， 转传统广告消费的 “ 被动代偿 ” 为 “ 积极代偿 ”。 但合成广告的实践也诞生了新的风险隐忧: 技术本身的成熟度和稳定度以及生成内容的真实性考量、 法律方面知识产权争议和深度伪造欺诈、 人机伦理关系的模糊都成了生成式 AI 和合成广告发展中所要面对和解决的问题。 本文基于技术的社会建构 ( SC OT ) 理论， 深入探讨合成广告如何在社会技术网络中被塑造、 接受与规制， 并分析其对广告行业传播模式和价值体系的影响。 在人机关系迭代的背景下， 合成广告促进了广告价值的重构， 需更加强调人文价值在技术革命中的重要性， 以保证技术始终为人服务。
 
-## 20. 术道之合：生成式AI的本体论、认识论与方法论——2023年以来中外学界智能传播研究的文献综述
+## 25. 多模态话语分析理论与外语教学
+
+- Source file: `多模态话语分析理论与外语教学 (张德禄等著, 张德禄等著, 张德禄) (z-library.sk, 1lib.sk, z-lib.sk).pdf`
+- Author hint: `张德禄等`
+- Pages: `326`
+- Keywords: `not extracted`
+
+### Abstract
+
+Abstract extraction failed. Inspect the PDF manually.
+
+## 26. 多模态话语分析视角下“洋网红”饮食类视频的跨文化传播研究
+
+- Source file: `多模态话语分析视角下“洋网红”饮食类视频的跨文化传播研究_郑雲哲.pdf`
+- Author hint: `郑雲哲`
+- Pages: `74`
+- Keywords: `跨文化传播, 多模态话语分析, 洋网红, 饮食 II Abstract Nowadays, the language, In the aspect of image display, On the sound level, However, homogenization of content, and amplification of cultural misreading, but at the same time, Multimodal discourse analysis, Foreign online celebrity, Diet 目录绪论`
+
+### Abstract
+
+如今随着互联网和自媒体的发展，“洋网红”在中国大地上已屡见不鲜，其中不乏一些“洋网红”美食博主的出现，他们借助外国人的的身份展开以饮食为主题的跨文化传播并取得了良好的效果。此类视频丰富了跨文化传播的视角，是我国打造对外传播矩阵的有力补充，对其进行研究可以为我国“讲好中国故事、传递中国声音”提供更多启示。因此，本研究借助多模态话语分析相关理论，聚焦微观视角探究“洋网红”们在饮食类视频中的话语表征，为丰富跨文化传播矩阵、以饮食为媒介传播中国文化提出更多可能性。 本研究在哔哩哔哩平台上选取了粉丝量在一百万以上的五位美食类“洋网红”， 结合多模态话语分析理论，通过文本分析和案例分析对“洋网红”饮食类视频的文字、图像、声音三个层面进行系统性研究。进而得出，在文字表述方面，视频以“美食”为第一定位拉近与观众的距离，其次以“洋网红”为核心身份把控视频主题； 在内容的表述中，“洋网红”以正面的态度看待中国饮食文化，积极应对文化差异， 但绝对性的话语影响着表述的准确性。在图像展示方面，“洋网红”们通过自身的动作和表情建构饮食文化的叙事逻辑，以客观真实形象展现饮食文化的同时也在不断寻求着中国观众的认可。在声音层面，视频以原声为主导，在真实展现中国饮食文化的同时，仍有部分画外音起到了干扰作用。总体上，三种模态相互配合，以各个层面的饮食元素为核心形成互补的结构，强化了饮食文化的呈现效果，展现了饮食背后兼收并蓄的文化内涵，但模态间的冲突也暗示着中外的文化差异。 研究认为，“洋网红”以饮食为介质进行的视频传播，可以有效地拓宽中外跨文化交流共通的意义空间，强化跨文化传播的效果；但对其逐利心理和行为、内容同质化、放大文化误读等现象要加以防范。以主流媒体为核心的跨文化传播矩阵， 想要“造船出海”传播中国声音，可以抓住第一人称的叙事优势，以“我”的视角主导表述逻辑、把握叙事主动性，但同时要注重文化的互动而不是单向灌输。
+
+## 27. 多模态话语视角下中国文化形象的海外传播建构与话语策略研究
+
+- Source file: `多模态话语视角下中国文化形象的海外传播建构与话语策略研究_杨诗 (2).pdf`
+- Author hint: `杨诗 (2)`
+- Pages: `61`
+- Keywords: `Chinese cultural image, Overseas communication, Discourse strategy, Multimodal discourse analysis, China Daily (Overseas Edition`
+
+### Abstract
+
+I 多模态话语视角下中国文化形象的海外传播建构与话语策略研究传播学同等学力硕士杨诗指导教师：代玉梅副教授摘要在全球化日益加深的背景下，文化交流成为国家间互动的重要纽带，而精准有效的文化传播建构与话语策略对塑造国家形象至关重要。然而，当前的传播实践面临着文化折扣显著、话语策略针对性不足、以及多模态符号协同机制不清等问题。现有的研究聚焦于宏观传播路径或单一文本模态，缺乏对特定外宣平台微观的话语策略。本研究以中国权威外宣媒体《中国日报》（海外版）旗下最具代表性的“Culture”栏目为研究对象，深入探究文字、图像、排版等多模态符号是如何协同运作，在 2019 至 2023 年间系统性地建构与传播中国文化形象，评估传播效果，以期为优化中国文化海外传播提供实证依据与理论参考。 本研究采用内容分析、多模态话语分析与受众调研相结合的研究方法。首先， 对 2019-2023 年间 1200 篇栏目图文报道进行定量编码与定性解构，构建起涵盖文字、图像和排版的多模态分析框架。其次，本文通过针对欧美、东南亚、非洲 6 个国家 80 名海外受众的分层问卷调查与深度访谈，实证检验栏目的传播效能。研究发现，“Culture”栏目通过传统、现代、跨文化交流三大主题的平衡叙事，建构了兼具历史厚重感与时代创新性的中国文化形象；在模态协同上，栏目正向情感词汇占比 72.3%，与故事化语篇占比 68%为基底，暖色调主导且聚焦物质与行为符号的视觉呈现，再通过清晰的信息层级版式进行整合，形成了高效传播链路。受众调研进一步揭示，该策略在文化同源性较高的东南亚地区效果最为显著，但在欧美受众中，现代文化内容的深度与呈现方式需求满足度仍有提升空间。 本研究结论表明，《中国日报》（海外版）“Culture”栏目通过精心的多模态话语策略，成功塑造了一个积极、立体、发展的中国文化形象，验证了多模态话语分析理论在文化传播领域的强大解释力。其理论意义在于突破了单一模态或宏观媒体的研究局限，为跨文化传播研究提供了分析新范式。在实践层面，研究不仅为“Culture”栏目提出了分众化内容生产、模态深度协同与新媒体渠道拓展等具体优化建议，更形成了一套可复制、可推广的外宣媒体文化传播策略框架，对构建新西南大学硕士学位论文 II 时代中国文化海外传播体系、推动文化输出向文化共鸣转变具有重要的现实指导意义。
+
+## 28. 抖音“深圳卫健委”短视频账号的传播策略研究
+
+- Source file: `抖音“深圳卫健委”短视频账号的传播策略研究_田爱霖.pdf`
+- Author hint: `田爱霖`
+- Pages: `64`
+- Keywords: `多模态话语分析, 抖音“深圳卫健委”, 政务短视频, 传播策略, 政务公信力`
+
+### Abstract
+
+iii 摘要随着社交媒体的快速发展，短视频平台已成为政务宣传的重要阵地。作为国内领先的短视频平台，抖音汇聚了众多政务部门，成为卫生健康知识科普与政务信息传播的关键渠道。其中，抖音“深圳卫健委”短视频账号以其创新的传播策略和独特的话语表达方式，在卫生健康类政务媒体中表现突出，具有显著的研究价值。 本研究以“深圳卫健委”抖音短视频账号为研究对象，基于多模态话语分析理论与传播学相关理论，从内容要素、话语范围及话语方式等维度对其短视频进行系统性话语分析，并结合形式层面、语境层面、意义层面与表达层面深入探讨其传播策略。研究发现，“深圳卫健委”短视频通过多模态协同制作，以轻松幽默的话语风格结合专业权威的知识内容等手段，有效提升了传播效果，增强了政务公信力。然而，其在传播过程中也存在沟通机制不畅、类目设计缺乏系统性及部分内容情感表达过度等问题。针对这些问题，本文提出优化沟通机制、建立科学的分类体系及加强内容审核等改进建议。 基于上述研究，本文进一步提出，其他类型的政务短视频可借鉴“深圳卫健委”的成功经验，通过强化专业背书、创新传播形式及丰富话语表达等方式提升传播效能，从而更好地履行政务宣传职能，增强公众信任。本研究旨在为卫生健康类及其他政务短视频的传播实践提供理论参考与实践指导。
+
+## 29. 术道之合：生成式AI的本体论、认识论与方法论——2023年以来中外学界智能传播研究的文献综述
 
 - Source file: `术道之合：生成式AI的本体论、认识论与方法论——2023年以来中外学界智能传播研究的文献综述_沈天健.pdf`
 - Author hint: `沈天健`
@@ -224,7 +323,18 @@ AIGC 城市记忆短视频为城市文化生产与传播带来了全新的数字
 
 生成式 AI 嵌入智能传播格局的深度成就着中外学界研究的广度。本文对生成式 AI 诞生以来中外学界三年有余的研究进行本体论、认识论、方法论视域下的综述和讨论。本体论域内，生成式 AI 于微观层面构造拟主体性，于中观层面彰显种群共同的智能体联结，于宏观层面凭恃基础设施性构塑社会秩序； 认识论域内，生成式 AI 以知识形态与传播图景的更迭重构认知转向，在空间向度再造信息秩序并扰动信息格局，在时间向度引发用户佃农化等资源重置问题； 方法论域内，研究路径通向智能方法， 应用实践通向智能新闻业的人机共创，治理措施通向层级化治理概念统摄下的流域化共治。生成式 AI 发展的边界在于人类自身的价值底线。何以匡正生成式 AI 技术发展的新路向，创设智能传播格局生态的新面向，谋划人机共存、在世存有的新方向，成为未来研究能够回答反省的深刻之问。
 
-## 21. 生成式AI广告的拟人化创作：基于隐喻的KTI模型研究
+## 30. 灾害事故报道的多模态话语分析——以China Daily和BBC News为例
+
+- Source file: `灾害事故报道的多模态话语分析——以China_Daily和BBC_News为例_姚莹娟 (2).pdf`
+- Author hint: `姚莹娟 (2)`
+- Pages: `76`
+- Keywords: `灾害事故新闻, 多模态话语分析, 系统功能语法, 视觉语法, the scope of impact, the losses caused, inappropriate, videos, music, and colors, unclear priorities, and poor visual experience, clarif ies the research objects, theories and methods, and establishes comparable corpora, material process, the contact, making the key content more prominent, foregrounding`
+
+### Abstract
+
+全球范围内灾害事故频发，对人们的生命财产安全造成极大威胁。媒体通过新闻报道向社会公布灾害成因、影响范围、造成的损失等情况，满足公众的信息需求。滞后、不恰当、不准确的新闻破坏了媒体的专业性和社会服务性。因此，提高灾害新闻内容的准确性和发布的及时性，成为了媒体部门迫切需要解决的问题。新闻报道逐渐融入了图像、 视频、 音乐、色彩等模态的资源。然而，复杂多样的要素亦会导致信息繁多、主次不清，视觉体验不佳。为了优化符号的组合与布局，让新闻更加生动、直观，本研究提出了以下问题： (1) 本语料中语言资源三大元功能的占比及其作用是怎样的？(2)本语料中图像资源三种意义的占比及其作用是怎样的？ 本文梳理了灾害新闻的特点和多模态话语分析的研究现状，明确了研究对象、理论和方法，收集了《中国日报》和《英国广播公司新闻》中的 120 篇自然灾害新闻文本和 160 幅图像，建立了比较语料库。以系统功能语法和视觉语法构成的多模态话语分析框架为理论依据，研究者使用 Uam Corpus Tool 和 Uam Image Tool 软件标注新闻中的文字和图像， 借助话语分析法阐释案例中语言和图像在灾害背景下发挥的作用。 研究发现：(1)概念功能与再现意义负责传播灾害信息和科普应急知识。概念功能方面， 物质过程、言语过程和关系过程占比较高。再现意义方面， 英方报道中叙事再现的占比 (67.47%)显著高于其在中方报道中的占比(48.75%)。(2)人际功能与互动意义可以鼓舞受灾群众的信心，激发读者的情感关怀。在人际功能方面，大量的中量值和低量值情态词使新闻报道更加客观真实。祈使语气可以再现事故发生时的紧急状况，虚拟语气常被用来宣传应急措施。在互动意义方面，图像中的接触、距离、视角在不同程度上加强了有关主体的情感互动。 中方报道中中量值情态的图像比例 (40.26%)略高于其在英方报道中的比例 (37.04%)。(3)文本功能与构图意义可以优化要素布局、吸引读者注意力。在文本功能方面， 英方和中方报道中无标记主位和主题主位的比例最高，使重点内容更加突出。在构图意义方面，图像采用中心-边缘布局、 前景化、 强饱和度等策略使受众的目光聚焦于关键信息。 中方新闻采用相对大小来突出信息的占比 (28.09%)比其在英方新闻中的占比 (16.87%)高 11.22% 综上所述，本文对比了中英自然灾害新闻中话语和图像在灾害语境中的作用及其占比， 丰富了多模态话语分析理论的应用范围并增强了它们对新闻语篇的解释力。这帮助读者了解了中英媒体建构自然灾害事件的话语特征，为优化新闻的话语策略、促进媒体、管理部门、公众进行协同应急管理提供借鉴。
+
+## 31. 生成式AI广告的拟人化创作：基于隐喻的KTI模型研究
 
 - Source file: `生成式AI广告的拟人化创作：基于隐喻的KTI模型研究_段淳林.pdf`
 - Author hint: `段淳林`
@@ -235,7 +345,7 @@ AIGC 城市记忆短视频为城市文化生产与传播带来了全新的数字
 
 生成式 AI 逐渐成为广告创作的核心主体， 当前时期的研究议题转向如何实现拟人化的生成式 AI 创意生产。 本文提出隐喻创意与生成式 AI 技术的融合是解决上述问题的关键所在。 隐喻创意的本质， 在于使生成式 AI 实现对人类类比推理思维的模仿， 该文基于社会学习理论， 构建出基于隐喻的拟人化创作 KTI 模型， 并通过实验进行了验证。 结果表明， 思维传播技术为生成式 AI 提供了模拟人类类比推理的能力， 通过持续的人机交互和反馈循环， 生成式 AI 不仅能够生成匹配目标受众认知模式的隐喻创意， 还能不断优化其创作内容， 提升内容的接受度。 通过此种创作模式， 可以有效提升生成式 AI 在广告创意生产中的拟人化程度， 减少因生成广告内容存在不真实感而引发的消费者广告回避现象。
 
-## 22. 行动者网络视域下AIGC重塑网络视听内容生产的机制与路径
+## 32. 行动者网络视域下AIGC重塑网络视听内容生产的机制与路径
 
 - Source file: `行动者网络视域下AIGC重塑网络视听内容生产的机制与路径_卜彦芳.pdf`
 - Author hint: `卜彦芳`
@@ -245,3 +355,25 @@ AIGC 城市记忆短视频为城市文化生产与传播带来了全新的数字
 ### Abstract
 
 从行动者网络视角来看，AIGC通过“转译”正在重塑网络视听内容的生产机制。 AIGC逐步推动创作者向人机协同的复合型主体转变，促使视听平台把AIGC内嵌为生产基础设施和“风控”哨岗，将用户转化为内容的“实时”共创者。然而，AIGC对网络视听内容生产的重塑亦伴随一些异化风险，如技术驯化、新型垄断壁垒、新茧房效应等。据此，本研究提出构建AIGC准入机制、强化文化数据集建设和引入异质行动者等调适路径，以优化AIGC重塑视听内容生产的方向。
+
+## 33. 非遗文化节目主持人的多模态话语分析研究
+
+- Source file: `非遗文化节目主持人的多模态话语分析研究_王紫璇.pdf`
+- Author hint: `王紫璇`
+- Pages: `58`
+- Keywords: `多模态话语分析, 语言系统, 视觉语法, 功能语法, pluralization and multi-quality, the stories of artisans' dedication, and the work introduction, vocabulary grammar, facial expressions, Chapter Five, as a systematic whole, language system, visual grammar, functional grammar`
+
+### Abstract
+
+I 非遗文化节目主持人的多模态话语分析研究 ——以作业作品《撑花》为例专业广播电视（播音与主持艺术方向） 研究生王紫璇指导老师王博摘要新质生产力推动了传媒艺术领域的高质量发展，文化类视听作品呈现多样化、 多元化、多质化的发展趋势。非遗文化节目承担着凝聚文化共识、讲好非遗故事的使命。 “非遗文化”成为广播电视传统媒体以及网络视听节目创作的热门选题。此类节目聚焦展示非遗的传承创新之美，通过主持人实地探访、体验观摩等形式，展示非遗的精湛技艺、匠人的匠心故事以及新时代背景下非遗的活态应用，诠释非遗的美学精神，带领受众在对非遗的探访中体悟厚重的中华优秀传统文化。 本文以多模态话语分析为理论支撑，以毕业作品《撑花》及主流媒体同类型节目为研究案例，分析主持人在不同模态下的呈现与多模态协同。本文共分为六部分。绪论介绍了研究背景和意义、相关理论研究现状、研究目的和创新点、非遗文化节目和主持人界定以及作品简介；第一章从“语言三分式”入手研究主持人语言系统层面的语言环境、 词汇语法、语音，分析非遗文化节目主持人的话语范畴；第二章结合克瑞斯和范勒文的视觉语法理论，通过再现意义和互动意义阐释非遗文化节目主持人的身势动作、表情神态、 服饰等非语言模态；第三章以韩礼德的“三大元功能”为切入点，围绕概念功能、人际功能与语篇功能分析非遗文化主持人语言表达的功能属性；第四章分析主持人各符号、各模态间强化与非强化的协同关系；第五章立足多模态话语分析理论，探讨全媒体语境下非遗文化节目主持人的优化策略与发展路径。 在文化语境的基础上，非遗文化节目主持人的语言、形象等元素相辅相成、融合互动。 各元素符号作为一个系统性的整体，共同完成对表意系统和话语意义的建构，共同承担“弘扬非遗文化，讲好中国故事”的重任。非遗文化节目主持人应该充分发挥模态的多维优势， 摒弃仅以单一符号作为传播中介的局限性，通过整合多种符号资源强化关键信息，提炼并表达中华文明的优秀成果与精神标识。
+
+## 34. 非遗题材短视频的多模态话语研究
+
+- Source file: `非遗题材短视频的多模态话语研究_李菲凡.pdf`
+- Author hint: `李菲凡`
+- Pages: `143`
+- Keywords: `非遗题材短视频, 多模态话语分析, 视觉语法, 多模态语料库, 话语创新`
+
+### Abstract
+
+本研究以抖音平台非遗题材短视频为对象，结合张德禄多模态话语分析综合框架与视觉语法理论，采用语料库辅助话语分析方法，从语境、表达、意义以及关系和语篇层面构建非遗题材短视频的多模态话语分析框架。研究发现，这类短视频在宏观上兼具民族性与时代性、传承与传播的双重使命；在表达层面通过文字、标题、解说、身体与非身体视觉模态、同期声与背景音乐等多模态协同建构文化意义；在互动与构图层面则通过亲密距离、正面平视、中情态、中心边缘布局和高显著性画面激活文化记忆、塑造中国审美。论文进一步归纳出增强模态使用密度、保持原真画面风格、重视视觉互动语法、设计多元故事情节以及运用隐喻转喻机制等话语创新策略。

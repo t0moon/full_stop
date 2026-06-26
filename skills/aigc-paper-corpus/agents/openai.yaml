@@ -1,4 +1,4 @@
 interface:
-  display_name: "AIGC Paper Corpus"
-  short_description: "Summarize and synthesize the AIGC research PDFs in this project."
-  default_prompt: "Read the local AIGC paper corpus, extract abstracts and keywords, then synthesize themes, methods, risks, and research gaps."
+  display_name: "AIGC Research Corpus"
+  short_description: "Summarize and synthesize the local AIGC, advertising, brand-image, and multimodal-media research PDFs in this project."
+  default_prompt: "Read the local AIGC, advertising, brand-image, and multimodal-media research corpus, extract abstracts and keywords when available, then synthesize themes, methods, theory frames, positioning logic, risks, discourse patterns, and research gaps."

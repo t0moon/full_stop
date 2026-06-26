@@ -1,0 +1,14 @@
+﻿# Temp files
+tmp_material_*.png
+tmp_page*.png
+_tmp/
+__pycache__/
+
+# Word lock files
+~$*.docx
+~WRL*.tmp
+
+# Build output
+build/
+dist/
+*.egg-info/
